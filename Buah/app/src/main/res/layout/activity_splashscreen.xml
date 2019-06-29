@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--TODO 1. Atur layout splashscreen-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0084d6"
+    tools:context=".SplashscreenActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ssd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:text="@string/submission"
+        android:textColor="#fff"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/ssd"
+        android:layout_width="255dp"
+        android:layout_height="255dp"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:src="@mipmap/logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ssd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:text="@string/dicoding"
+        android:textColor="#fff"
+        android:textSize="32sp" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BUAH</string>
+    <string name="buah_buahan">Buah-buahan</string>
+    <string name="submission">SUBMISSION</string>
+    <string name="dicoding">DICODING</string>
+    <string-array name="nama_buah">
+        <item>Alpukat ( Persea americana )</item>
+        <item>Pisang ( Musa acuminata )</item>
+        <item>Manggis (  Garcinia mangostana )</item>
+        <item>Jeruk ( Citrus )</item>
+        <item>Strawberry ( Fragaria × ananassa )</item>
+        <item>Pear( Pyrus )</item>
+        <item>Rambutan ( Nephelium lappaceum )</item>
+        <item>Duku ( Lansium domesticum )</item>
+    </string-array>
+    <array name="image_buah">
+        <item>@drawable/alpukat</item>
+        <item>@drawable/pisang</item>
+        <item>@drawable/manggis</item>
+        <item>@drawable/jeruk</item>
+        <item>@drawable/strawberry</item>
+        <item>@drawable/pear</item>
+        <item>@drawable/rambutan</item>
+        <item>@drawable/duku</item>
+    </array>
+</resources>
